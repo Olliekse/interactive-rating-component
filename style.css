@@ -1,0 +1,153 @@
+body {
+  background-color: black;
+  margin: 0;
+  height: 100vh;
+  max-width: 100vw;
+  position: relative;
+  font-family: 'Overpass';
+}
+
+.rating-container {
+  box-sizing: border-box;
+  background-color:  #1D242C;
+  height: 435px;
+  width: 413px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 42px 34px 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.rating__container_center {
+  justify-content: center;
+  align-items: center;
+}
+
+.rating__title {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+
+.rating__star {
+  width: 24px;
+  height: 24px;
+}
+
+.rating__star-container {
+  margin-bottom: 30px;
+  
+}
+
+.rating__text {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 10px;
+}
+
+.rating__num-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 29px;
+}
+
+.rating__num {
+  color: hsl(217, 12%, 63%);
+}
+
+.rating__submit-btn {
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  width: 100%;
+  height: 48px;
+  align-self: center;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#494c51;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.rating__selected-container {
+  padding: 5px;
+  background-color:  #494c51;
+  width: 200px;
+  height: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+}
+
+.rating__selected {
+color: hsl(25, 97%, 53%);
+}
+
+.rating__thank-you {
+  color: white;
+  text-align: center;
+  margin: 50px 0 10px;
+}
+
+.rating__thank-you-text {
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  margin: 0;
+}
+
+.rating__image {
+  width:  150px;
+  height: 100px;
+  margin: 0 auto 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px; 
+  text-align: center; 
+};
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.footer {
+  width: 100%;
+  background-color: white;
+}
