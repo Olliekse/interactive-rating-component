@@ -58,10 +58,13 @@ body {
   margin-bottom: 29px;
 }
 
-.rating__num {
-  color: hsl(217, 12%, 63%);
+.rating__num_selected {
+
 }
 
+.rating__num:hover {
+  background-color: hsl(25, 97%, 53%);
+}
 .rating__submit-btn {
   background-color: hsl(25, 97%, 53%);
   border-radius: 20px;
@@ -83,6 +86,10 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+}
+
+.circle_selected {
+  background-color: white;
 }
 
 .rating__selected-container {
