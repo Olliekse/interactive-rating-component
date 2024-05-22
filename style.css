@@ -78,6 +78,10 @@ body {
   letter-spacing: 2px;
 }
 
+.rating__submit-btn:hover {
+  background-color: white;
+}
+
 .circle {
   display: flex;
   justify-content: center;
